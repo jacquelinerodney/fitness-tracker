@@ -20,8 +20,8 @@ mongoose.connect(
   useFindAndModify: false,
 });
 
-app.use(require("./routes/html-route.js"));
-app.use(require("./routes/api-route.js"));
+app.use(require("./routes/html-routes.js"));
+app.use(require("./routes/api-routes.js"));
 
 
 // Start the server
